@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 420" width="100%" role="img" aria-label="Tech universe: Java, Spring Boot, MySQL, React, JavaScript and tools">
+  <defs>
+    <path id="o0" d="M 285.0,210.0 A 165,58 0 0,1 615.0,210.0 A 165,58 0 0,1 285.0,210.0"/><path id="o1" d="M 367.5,67.1 A 165,58 60 0,1 532.5,352.9 A 165,58 60 0,1 367.5,67.1"/><path id="o2" d="M 367.5,352.9 A 165,58 -60 0,1 532.5,67.1 A 165,58 -60 0,1 367.5,352.9"/>
+    <radialGradient id="sg" cx="38%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#c0caf5"/><stop offset="28%" stop-color="#7aa2f7"/><stop offset="60%" stop-color="#3d59a1"/><stop offset="100%" stop-color="#1a1b26"/>
+    </radialGradient>
+    <radialGradient id="hg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7aa2f7" stop-opacity="0.3"/><stop offset="60%" stop-color="#7aa2f7" stop-opacity="0.08"/><stop offset="100%" stop-color="#7aa2f7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="ig" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="hb" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="18"/></filter>
+    <style>
+      @keyframes breathe { 0%,100% { opacity: .88 } 50% { opacity: 1 } }
+      @keyframes pulse { 0%,100% { opacity: .45 } 50% { opacity: .95 } }
+      @keyframes spin { from { transform: rotate(0deg) } to { transform: rotate(360deg) } }
+      @keyframes spinrev { from { transform: rotate(0deg) } to { transform: rotate(-360deg) } }
+      .core { animation: breathe 4s ease-in-out infinite }
+      .halo { animation: pulse 4s ease-in-out infinite }
+      .r1 { transform-box: fill-box; transform-origin: center; animation: spin 25s linear infinite }
+      .r2 { transform-box: fill-box; transform-origin: center; animation: spinrev 18s linear infinite }
+    </style>
+  </defs>
+  <rect width="900" height="420" fill="#0d1117" rx="14"/>
+  <circle cx="450" cy="210" r="210" fill="url(#hg)" class="halo" filter="url(#hb)"/>
+  <g transform="translate(450,210)">
+    <ellipse class="r1" rx="100" ry="100" fill="none" stroke="#7aa2f7" stroke-width="0.8" stroke-opacity="0.25" stroke-dasharray="12,28,4,28"/>
+    <ellipse class="r2" rx="116" ry="116" fill="none" stroke="#bb9af7" stroke-width="0.8" stroke-opacity="0.2" stroke-dasharray="8,22,3,22"/>
+  </g>
+  <ellipse cx="450" cy="210" rx="165" ry="58" fill="none" stroke="#7aa2f7" stroke-opacity="0.22" stroke-width="1.2" stroke-dasharray="5,6" transform="rotate(0 450 210)"/><ellipse cx="450" cy="210" rx="165" ry="58" fill="none" stroke="#bb9af7" stroke-opacity="0.22" stroke-width="1.2" stroke-dasharray="5,6" transform="rotate(60 450 210)"/><ellipse cx="450" cy="210" rx="165" ry="58" fill="none" stroke="#9ece6a" stroke-opacity="0.22" stroke-width="1.2" stroke-dasharray="5,6" transform="rotate(-60 450 210)"/>
+  <circle cx="450" cy="210" r="82" fill="url(#sg)" class="core" filter="url(#ig)"/>
+  <ellipse cx="427" cy="183" rx="24" ry="16" fill="#ffffff" opacity="0.22"/>
+  <circle cx="450" cy="210" r="78" fill="none" stroke="#7aa2f7" stroke-opacity="0.35"/>
+  <text x="450" y="206" text-anchor="middle" fill="#e0e7ff" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="16" font-weight="bold" letter-spacing="3">DEV</text>
+  <text x="450" y="226" text-anchor="middle" fill="#a5b4fc" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9" letter-spacing="2">JAVA · FULL STACK</text>
+  <g filter="url(#ig)">
+    <animateMotion dur="10s" repeatCount="indefinite" begin="0.00s"><mpath xlink:href="#o0"/></animateMotion>
+    <animate attributeName="opacity" values="0.75;0.35;0.75;1;0.75" keyTimes="0;0.25;0.5;0.75;1" dur="10s" begin="0.00s" repeatCount="indefinite"/>
+    <circle r="27" fill="#E76F00" stroke="#ffb366" stroke-width="1.8"/>
+    <text text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="8.5" font-weight="bold">JAVA</text>
+  </g>
+  <g filter="url(#ig)">
+    <animateMotion dur="10s" repeatCount="indefinite" begin="-2.50s"><mpath xlink:href="#o0"/></animateMotion>
+    <animate attributeName="opacity" values="0.75;0.35;0.75;1;0.75" keyTimes="0;0.25;0.5;0.75;1" dur="10s" begin="-2.50s" repeatCount="indefinite"/>
+    <circle r="27" fill="#6DB33F" stroke="#a6e37f" stroke-width="1.8"/>
+    <text text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="8.5" font-weight="bold">SPRING</text>
+  </g>
+  <g filter="url(#ig)">
+    <animateMotion dur="10s" repeatCount="indefinite" begin="-5.00s"><mpath xlink:href="#o0"/></animateMotion>
+    <animate attributeName="opacity" values="0.75;0.35;0.75;1;0.75" keyTimes="0;0.25;0.5;0.75;1" dur="10s" begin="-5.00s" repeatCount="indefinite"/>
+    <circle r="27" fill="#00758F" stroke="#4fd1ea" stroke-width="1.8"/>
+    <text text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="8.5" font-weight="bold">MYSQL</text>
+  </g>
+  <g filter="url(#ig)">
+    <animateMotion dur="10s" repeatCount="indefinite" begin="-7.50s"><mpath xlink:href="#o0"/></animateMotion>
+    <animate attributeName="opacity" values="0.75;0.35;0.75;1;0.75" keyTimes="0;0.25;0.5;0.75;1" dur="10s" begin="-7.50s" repeatCount="indefinite"/>
+    <circle r="27" fill="#0a7ea4" stroke="#61dafb" stroke-width="1.8"/>
+    <text text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="8.5" font-weight="bold">REACT</text>
+  </g>
+  <g filter="url(#ig)">
+    <animateMotion dur="12s" repeatCount="indefinite" begin="0.00s"><mpath xlink:href="#o1"/></animateMotion>
+    <animate attributeName="opacity" values="0.75;0.35;0.75;1;0.75" keyTimes="0;0.25;0.5;0.75;1" dur="12s" begin="0.00s" repeatCount="indefinite"/>
+    <circle r="27" fill="#d4b30b" stroke="#fff27a" stroke-width="1.8"/>
+    <text text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="8.5" font-weight="bold">JS</text>
+  </g>
+  <g filter="url(#ig)">
+    <animateMotion dur="12s" repeatCount="indefinite" begin="-3.00s"><mpath xlink:href="#o1"/></animateMotion>
+    <animate attributeName="opacity" values="0.75;0.35;0.75;1;0.75" keyTimes="0;0.25;0.5;0.75;1" dur="12s" begin="-3.00s" repeatCount="indefinite"/>
+    <circle r="27" fill="#E34F26" stroke="#ff9a7a" stroke-width="1.8"/>
+    <text text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="8.5" font-weight="bold">HTML</text>
+  </g>
+  <g filter="url(#ig)">
+    <animateMotion dur="12s" repeatCount="indefinite" begin="-6.00s"><mpath xlink:href="#o1"/></animateMotion>
+    <animate attributeName="opacity" values="0.75;0.35;0.75;1;0.75" keyTimes="0;0.25;0.5;0.75;1" dur="12s" begin="-6.00s" repeatCount="indefinite"/>
+    <circle r="27" fill="#1572B6" stroke="#62b0ff" stroke-width="1.8"/>
+    <text text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="8.5" font-weight="bold">CSS</text>
+  </g>
+  <g filter="url(#ig)">
+    <animateMotion dur="12s" repeatCount="indefinite" begin="-9.00s"><mpath xlink:href="#o1"/></animateMotion>
+    <animate attributeName="opacity" values="0.75;0.35;0.75;1;0.75" keyTimes="0;0.25;0.5;0.75;1" dur="12s" begin="-9.00s" repeatCount="indefinite"/>
+    <circle r="27" fill="#0891b2" stroke="#67e8f9" stroke-width="1.8"/>
+    <text text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold">TAILWIND</text>
+  </g>
+  <g filter="url(#ig)">
+    <animateMotion dur="14s" repeatCount="indefinite" begin="0.00s"><mpath xlink:href="#o2"/></animateMotion>
+    <animate attributeName="opacity" values="0.75;0.35;0.75;1;0.75" keyTimes="0;0.25;0.5;0.75;1" dur="14s" begin="0.00s" repeatCount="indefinite"/>
+    <circle r="27" fill="#F05032" stroke="#ff9c85" stroke-width="1.8"/>
+    <text text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="8.5" font-weight="bold">GIT</text>
+  </g>
+  <g filter="url(#ig)">
+    <animateMotion dur="14s" repeatCount="indefinite" begin="-2.80s"><mpath xlink:href="#o2"/></animateMotion>
+    <animate attributeName="opacity" values="0.75;0.35;0.75;1;0.75" keyTimes="0;0.25;0.5;0.75;1" dur="14s" begin="-2.80s" repeatCount="indefinite"/>
+    <circle r="27" fill="#2496ED" stroke="#8fd0ff" stroke-width="1.8"/>
+    <text text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="8.5" font-weight="bold">DOCKER</text>
+  </g>
+  <g filter="url(#ig)">
+    <animateMotion dur="14s" repeatCount="indefinite" begin="-5.60s"><mpath xlink:href="#o2"/></animateMotion>
+    <animate attributeName="opacity" values="0.75;0.35;0.75;1;0.75" keyTimes="0;0.25;0.5;0.75;1" dur="14s" begin="-5.60s" repeatCount="indefinite"/>
+    <circle r="27" fill="#FF6C37" stroke="#ffb08f" stroke-width="1.8"/>
+    <text text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="7" font-weight="bold">POSTMAN</text>
+  </g>
+  <g filter="url(#ig)">
+    <animateMotion dur="14s" repeatCount="indefinite" begin="-8.40s"><mpath xlink:href="#o2"/></animateMotion>
+    <animate attributeName="opacity" values="0.75;0.35;0.75;1;0.75" keyTimes="0;0.25;0.5;0.75;1" dur="14s" begin="-8.40s" repeatCount="indefinite"/>
+    <circle r="27" fill="#7c3aed" stroke="#c4b5fd" stroke-width="1.8"/>
+    <text text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="8.5" font-weight="bold">GEMINI</text>
+  </g>
+  <g filter="url(#ig)">
+    <animateMotion dur="14s" repeatCount="indefinite" begin="-11.20s"><mpath xlink:href="#o2"/></animateMotion>
+    <animate attributeName="opacity" values="0.75;0.35;0.75;1;0.75" keyTimes="0;0.25;0.5;0.75;1" dur="14s" begin="-11.20s" repeatCount="indefinite"/>
+    <circle r="27" fill="#475569" stroke="#cbd5e1" stroke-width="1.8"/>
+    <text text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="8.5" font-weight="bold">JWT</text>
+  </g>
+</svg>

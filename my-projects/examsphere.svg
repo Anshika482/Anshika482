@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-label="ExamSphere">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2a0a24"/><stop offset="100%" stop-color="#140818"/></linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#fbbf24"/></linearGradient>
+    <filter id="gl" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g transform="scale(2)">
+    <rect x="1" y="1" width="448" height="298" rx="14" fill="url(#bg)" stroke="url(#top)" stroke-width="1.6"/>
+    <rect x="14" y="10" width="422" height="2" rx="1" fill="url(#top)" opacity="0.9"/>
+    <g transform="translate(386 56)" filter="url(#gl)">
+      <circle r="24" fill="none" stroke="#f472b6" stroke-width="2.2"/>
+      <circle r="24" fill="none" stroke="#fbbf24" stroke-width="2.2" stroke-dasharray="150.8" stroke-dashoffset="0" transform="rotate(-90)">
+        <animate attributeName="stroke-dashoffset" values="0;150.8" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <line x1="0" y1="0" x2="0" y2="-15" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+      </line>
+      <circle r="2.5" fill="#ffffff"/>
+    </g>
+    <text x="30" y="46" fill="#f472b6" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9" font-weight="bold" letter-spacing="2.5">FULL-STACK · ONLINE ASSESSMENT</text>
+    <text x="30" y="80" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="800">📝 ExamSphere</text>
+    <text x="30" y="100" fill="#fce7f3" fill-opacity="0.75" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11">Online Examination &amp; Assessment Platform</text>
+    <rect x="30" y="118" width="97" height="22" rx="4" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.8"/><text x="79" y="133" fill="#f472b6" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="10" font-weight="bold" text-anchor="middle">Spring Boot</text><rect x="135" y="118" width="126" height="22" rx="4" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.8"/><text x="198" y="133" fill="#f472b6" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="10" font-weight="bold" text-anchor="middle">Spring Security</text><rect x="269" y="118" width="54" height="22" rx="4" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.8"/><text x="296" y="133" fill="#f472b6" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="10" font-weight="bold" text-anchor="middle">MySQL</text><rect x="331" y="118" width="90" height="22" rx="4" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.8"/><text x="376" y="133" fill="#f472b6" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="10" font-weight="bold" text-anchor="middle">JavaScript</text>
+    <rect x="28" y="160" width="394" height="98" rx="8" fill="#000000" fill-opacity="0.22" stroke="#f472b6" stroke-opacity="0.25"/>
+    <rect x="28" y="160" width="3" height="98" rx="1.5" fill="#f472b6"/>
+    <circle cx="46" cy="178" r="4" fill="#fbbf24"><animate attributeName="opacity" values="1;0.35;1" dur="2s" begin="-0.0s" repeatCount="indefinite"/></circle><text x="60" y="182" fill="#fce7f3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5">Timed exams with auto-submit on timeout</text><circle cx="46" cy="199" r="4" fill="#fbbf24"><animate attributeName="opacity" values="1;0.35;1" dur="2s" begin="-0.4s" repeatCount="indefinite"/></circle><text x="60" y="203" fill="#fce7f3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5">Instant auto-evaluation, results and analytics</text><circle cx="46" cy="220" r="4" fill="#fbbf24"><animate attributeName="opacity" values="1;0.35;1" dur="2s" begin="-0.8s" repeatCount="indefinite"/></circle><text x="60" y="224" fill="#fce7f3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5">Student, Instructor and Admin dashboards</text><circle cx="46" cy="241" r="4" fill="#fbbf24"><animate attributeName="opacity" values="1;0.35;1" dur="2s" begin="-1.2s" repeatCount="indefinite"/></circle><text x="60" y="245" fill="#fce7f3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5">Email verification and secure password reset</text>
+    <rect x="28" y="258" width="394" height="30" rx="8" fill="#000000" fill-opacity="0.25" stroke="#f472b6" stroke-opacity="0.6"/>
+    <circle cx="44" cy="273" r="4" fill="#22c55e" filter="url(#gl)"><animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/></circle>
+    <text x="56" y="277" fill="#f472b6" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9" font-weight="bold" letter-spacing="1.5">DEPLOYED ON RENDER</text>
+    <text x="410" y="277" fill="#fce7f3" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9" text-anchor="end">examsphere-5vy7.onrender.com</text>
+  </g>
+</svg>

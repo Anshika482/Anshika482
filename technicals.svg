@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 350" width="100%" role="img" aria-label="DSA with Java">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#18181b"/><stop offset="100%" stop-color="#09090b"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#eab308"/><stop offset="100%" stop-color="#facc15"/></linearGradient>
+    <filter id="gg" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="450" height="350" rx="16" fill="url(#bg)" stroke="#eab308" stroke-width="1.2" stroke-opacity="0.45"/>
+
+  <g transform="translate(325 30)">
+    <rect width="100" height="56" rx="8" fill="#27272a" stroke="#eab308"/>
+    <text x="50" y="29" fill="#facc15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="900" text-anchor="middle" filter="url(#gg)">JAVA</text>
+    <text x="50" y="45" fill="#a1a1aa" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="8.5" font-weight="bold" text-anchor="middle">LEETCODE</text>
+  </g>
+
+  <text x="30" y="50" fill="#eab308" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="10" font-weight="bold" letter-spacing="2.5">ALGORITHMIC MASTERY</text>
+  <text x="30" y="80" fill="#f4f4f5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="800">🧠 DSA with Java</text>
+
+  <rect x="30" y="100" width="270" height="6" rx="3" fill="#27272a"/>
+  <rect x="30" y="100" width="0" height="6" rx="3" fill="url(#bar)">
+    <animate attributeName="width" values="0;180;180" keyTimes="0;0.6;1" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="30" y="132" width="127" height="26" rx="4" fill="#27272a" stroke="#3f3f46"/><text x="93.5" y="149" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" text-anchor="middle">Arrays &amp; Strings</text><rect x="165" y="132" width="127" height="26" rx="4" fill="#27272a" stroke="#3f3f46"/><text x="228.5" y="149" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" text-anchor="middle">Linked Lists</text><rect x="300" y="132" width="127" height="26" rx="4" fill="#27272a" stroke="#3f3f46"/><text x="363.5" y="149" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" text-anchor="middle">Stacks &amp; Queues</text><rect x="30" y="166" width="127" height="26" rx="4" fill="#27272a" stroke="#3f3f46"/><text x="93.5" y="183" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" text-anchor="middle">Trees &amp; BST</text><rect x="165" y="166" width="127" height="26" rx="4" fill="#27272a" stroke="#3f3f46"/><text x="228.5" y="183" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" text-anchor="middle">Graphs (BFS/DFS)</text><rect x="300" y="166" width="127" height="26" rx="4" fill="#27272a" stroke="#3f3f46"/><text x="363.5" y="183" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" text-anchor="middle">Dynamic Programming</text><rect x="30" y="200" width="127" height="26" rx="4" fill="#27272a" stroke="#3f3f46"/><text x="93.5" y="217" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" text-anchor="middle">Recursion</text><rect x="165" y="200" width="127" height="26" rx="4" fill="#27272a" stroke="#3f3f46"/><text x="228.5" y="217" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" text-anchor="middle">Binary Search</text><rect x="300" y="200" width="127" height="26" rx="4" fill="#27272a" stroke="#3f3f46"/><text x="363.5" y="217" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" text-anchor="middle">Hashing</text>
+
+  <text x="30" y="250" fill="#a1a1aa" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="10"><tspan fill="#eab308">▸</tspan> Focus: time and space complexity optimisation</text>
+  <text x="30" y="270" fill="#a1a1aa" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="10"><tspan fill="#eab308">▸</tspan> Consistent problem solving in pure Java</text>
+
+  <rect x="30" y="292" width="390" height="34" rx="8" fill="#18181b" stroke="#eab308"/>
+  <text x="46" y="313" fill="#eab308" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" font-weight="bold" letter-spacing="1">LEETCODE PROFILE</text>
+  <text x="406" y="313" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="9.5" text-anchor="end">leetcode.com/u/anshikaverma45/</text>
+</svg>
