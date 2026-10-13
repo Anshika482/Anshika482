@@ -9,7 +9,7 @@
   <g transform="translate(325 30)">
     <rect width="100" height="56" rx="8" fill="#27272a" stroke="#eab308"/>
     <text x="50" y="29" fill="#facc15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="900" text-anchor="middle" filter="url(#gg)">100+</text>
-    <text x="50" y="45" fill="#a1a1aa" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="8.5" font-weight="bold" text-anchor="middle">TARGET · OCT</text>
+    <text x="50" y="45" fill="#a1a1aa" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="8.5" font-weight="bold" text-anchor="middle">LEETCODE</text>
   </g>
 
   <text x="30" y="50" fill="#eab308" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="10" font-weight="bold" letter-spacing="2.5">ALGORITHMIC MASTERY</text>

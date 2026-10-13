@@ -209,7 +209,7 @@ A Spring Boot REST API for books, members and issue/return workflows, with Admin
 </p>
 
 <p align="center">
-  <b>Solving LeetCode problems in Java · on the road to 100+</b><br/>
+  <b>100+ LeetCode problems solved in Java</b><br/>
   Arrays · Linked Lists · Stacks · Queues · Trees · Graphs · Recursion · Dynamic Programming · Binary Search · Hashing
 </p>
 
